@@ -10,19 +10,19 @@ let updatedList = arr.map((element) => {
 	    return prev;
 	}, "")
 		
-	return updatedString;
+	// return updatedString;
 }) ;
 
-let mp = {} ; //{"Virupaksha Temple" : "The Virupaksha Temple"}
-updatedList.forEach( (element, index) => {
-	mp[element] = arr[i] ;
-});
-//["Virupaksha Temple" , "Victoria Memorial" , "Tajmahal"]
+// let mp = {} ; //{"Virupaksha Temple" : "The Virupaksha Temple"}
+// updatedList.forEach( (element, index) => {
+// 	mp[element] = arr[i] ;
+// });
+// //["Virupaksha Temple" , "Victoria Memorial" , "Tajmahal"]
 
-updatedList.sort();
+// updatedList.sort();
 
-let finalAns = updatedList.map((element) => {
-	return mp[element];
-})
+// let finalAns = updatedList.map((element) => {
+// 	return mp[element];
+// })
 
-console.log(finalAns);
+// console.log(finalAns);
